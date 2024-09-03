@@ -1,0 +1,19 @@
+Lesson 2:
+
+Operator: ia a charater that represent an action :
+
+1. Arithetic Operators : + - * / %
+2. Assignment Operators : = ; += ; -= ; *= ; /= ; %=
+3. Auto-Increment and Auto-Decrement Operators : ++ ; --
+Ex:
+
+a++ is Post ; --a is Pre
+
+4. Logical Oprators : &&; || ; !
+5. Comparison/ Relational Operators : == ; != ; > ; <' <= ;>=
+6. Bitwise Operators
+7. Ternary Operators : boolean-Expression ? true-Expression : false-expression  
+
+
+https://www.tutorialspoint.com/market/course/java-basics-for-beginners/learn/168878/lecture.php?v=1724756590
+

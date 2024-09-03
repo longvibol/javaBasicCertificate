@@ -1,0 +1,107 @@
+Week 2: Type casting 
+
+When we assign one data type to another data type
+
+- Two data the same type = Automatic Type Conversion 
+- If two data they are different they need to be casted or converted explicityl 
+
+* explicity(need to do by it selve) =/ implicity (auto)
+
+ther are two type of conversions in Java:
+
+1. Widening or Automatic Conversion 
+2. Narrowing or Explicit Conversion 
+
+=========================== 
+
+Primitive Type :
+
+int, long, short, double, float, byte, char, boolean 
+
+Wrapper Class: Integer, Long, Short, Double, Float, Byte, Character, Boolean 
+
+*** When we use Wrapper Class ***
+
+1. When 2 methods wants to refer to the same instance of primative type, then pass wrapper class
+ as method argument 
+
+2. Generices in Java works only with object and does not support primitive types. 
+
+3. Collection in Java deal only with objects, to store a primitive type in one of these classes, you need to wrap 
+the primitive type in a class. 
+
+4. When you want to refer null from data type, you need an object. 
+Primitives can not have null as value. 
+
+------------------------
+
+Primitive Type to wrapper class: 
+there are two way to convert from primitive to wrapper class :
+
+- using constructors (not recommended)
+- using static factory method such as valueOf()
+
+
+==============================================================
+
+From JDK 5 : java added 2 important features called : autoboxing and auto-unboxing 
+
+1. autoboxing : automatic conversion of tye primitive type into their corresponding object wrapper class. 
+int to Integer and a char to Character. 
+
+Character ch = 's';
+
+List<Integer> integerList = new ArrayList<>();
+
+for(int i = 1; i < 10; i++{
+
+integerList.add(i);
+
+}
+
+https://www.tutorialspoint.com/market/course/java-basics-for-beginners/learn/168887/lecture.php?v=1725191314
+
+
+
+2. auto-unboxing 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

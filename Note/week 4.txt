@@ -1,0 +1,114 @@
+Week 4: Variable 
+
+- Local variable are defined within a method, constructor and blocks. យើងបង្កើត អ នៅក្នុង Method, constructor and block (for, while, do)
+- Scope of that variable is restricted to that method, constructor and blocks. ដែលកំណត់មានតែនៅក្នុង កន្លែងដែលបង្កើតវា 
+- can not use Access modifiers for local variable យើងមិនអាចប្រើវាជាមួយ Access Modifiers nos te 
+
++ Access modifier: public, static, protected and default 
+
+- these are temporary variable exis during the method execution. 
+- these are not accessible from the rest of the class 
+
+
+==============================
+
+*** Instance Variable ***
+
+-  យើងបង្កើតវានៅខាងក្នុង class តែនៅក្រៅ Method 
+- Each instance of class : វាក៏ំ copy varibale ទៅចាមួយគ្នាដែល
+- វាដែលយើងបង្កើត object ដែលមាន Key word "new" នោះ Instance variable ត្រូវបានបង្កើតដូចគ្នា ពេលដែលយើងលុបវាចោល នោះគឺវាត្រូវបានលុបដូចគ្នា។
+- យើងអាចប្រើ Access Modifier ជាមួយវាបាន
+- យើងអាហៅវា variable ទៅប្រើបានគ្រប់ Methods, constructor and blocks in the class
+- យើងយកវាទៅប្រើដោយគ្រន់តែ ហៅឈ្មោះ Variable នឹងតែម្តង អោយតែវាស្ថិតនៅក្នុង class នឹង
+- Instance variabels គឺ ហៅថា Non-static variable (អាញ្ញិតដែល​ប្រែប្រួល)
+- គេអាចហៅបានថា state variables. 
+
+=============== Static Keyword:
+
+- The static keyword is used mainly for memory management. 
+- static គេប្រើច្រើនៅពីមុន class
+- យើងដាក់ static នៅពីមុន variable ដើម្បីរក្សា our prgram memory efficient 
+- យើងអាចប្រើបានដូចជា 
+1. Variables
+2. Methods
+3. Imports 
+4. Blocks
+5. Class 
+
+- static method can not access the non-static variable or method directly. យើងមិនអាចប្រើ static keyword ដើម្បីប្រើ ឬហៅ variable 
+ដែលជា non-static variable (instance variable) 
+ពន្យល់ static មានន័យថា មិនប្រែប្រួល យើងកំណត់ប៉ុន្នា វាប៉ុន្នឹង ចឹងយើងមិនអាចយកវា មកដាក់ជាមួយ instanc variable បាននោះទេ
+  
+- this and super keywords can not be used inside the static context. 
+
+***
+
+Syntax: access_modifier static data_type variable_name;
+Ex: public static String companyName;
+
+***
+ពេលដែលប្រើ static Keywork វាមានដែលកំណត់នៅតែក្នុង Class វានោះទ
+
+
+
+
+
+
+
+
+
+
+
+
+ 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

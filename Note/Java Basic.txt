@@ -1,0 +1,108 @@
+1. Fields :variable declared outside the Method. 
+2. Variable: refer to declarations inside the Method. 
+3. Variables: is a name reference to a memory area where the value of the variable is stored. 
+4. Syntax variables: [data_Type] [variable_name] = [variable_Value] 
+5. data type: type of information that store in the memory
+
+
+---------------------------------
+
+There are four types of variables: 
+
+1. Instances variable : change to the object that we create = copy 
+2. Static variables : no change 
+3. Local variables : field 
+4. Methods arguments : is the variable that we put inside method 
+
+---------------------------------
+
+1. Instances variable: define in the class but outside the method = field 
+- they are call non-static variables 
+- also call State variables 
+- when we create the object then all of the objects have different instances variable = change variables according to objects it’s created. 
+Ex: int i = 10; 
+ប្រែប្រួល អញ្ញាត
+
+
+
+
+2. Static variables: which variable declares as the static it is call static variables: 
+- or call Class variables 
+- no change for the static variables when we create new objects from the class 
+Ex. Static int i = 10;
+
+អញ្ញាតមិនប្រែប្រួល អោយតាមាន ពាក្យ Static គឺមិនផ្លាស់ប្តូរទេ
+
+3. Local variables: is the variable we declare inside the Method 
+- it have scope only inside the method 
+- out side it can not us it 
+
+យើងបង្កើតវានៅក្នុង តែ Method ទេ
+
+4. Method argument: is a variable that pass to the method when the method is called
+
+
+------------------------------------------------
+
+Data Type: what kind of data which you are storing and holding 
+
+1. Primitive data type ( device into two : one is numeric and floating data type)
+2. Non-primitive/ Reference data types
+
+* Primitive data types: 
+
+1- numeric data types: integral data type= data store number អត់ក្នៀស: byte, short, int, long. 
+
+2- floating pint data type: float 0.0f and double 0.0d 
+
+* Non- Numeric data type: 
+1. Char : store one character 
+2. Boolean data type: store True or False
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

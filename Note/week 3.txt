@@ -1,0 +1,59 @@
+Week 3 : Method
+
+- a method is a collection of statments that perform some specific task and return result to the caller. 
+- a method can perform some specifi task without returning anything. 
+- Method allow us to reuse the code without retyping the code. 
+- you can not write a method inside a method. 
+- but you can call a method from other method. 
+
+Example:
+
+public int max(int a, int b){
+
+if(a>b){
+return a;}
+else{return b;}
+}
+
+--------------
+
+public : modifier
+int : return-type
+max :method name 
+int a, int b : parameter list
+
+*** Modifier ***
+
+Modifer defines access type of the method i.e from where it can be
+accessed in your application. we have 4 type of access specifier:
+
+1. public ធ្វើការហៅបានគ្រប់ទីកន្លែងនៅក្នុង application 
+2. protected ធ្វើការហៅបាននៅក្នុង class ខ្លួនឯង និង class ដែលបង្កើតបន្តវា​ sub class
+3. private : ហៅបានតែនៅក្នុង class ដែលបង្កើតខ្លួនឯង
+4. default: mean declaring or defining without using any modifier.
+មិនចាំបាច់ដាក់ ពាក្យថា  default តេ។​ វាអាចហៅបានក្នុង class ខ្លួនឯង​ និងជាមួយ package withing 
+which its class is define. 
+can be call in class and package it stand. 
+
+
+ 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
